@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+:root {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.25;
+  font-weight: 300;
+
+  opacity: 1;
+  color-scheme: light;
+  background-color: #36454F;
+  background-image: radial-gradient(#BDB7AD 1px, #eae5d7 1px);
+  background-size: 20px 20px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #002082;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
